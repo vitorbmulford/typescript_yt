@@ -2,6 +2,7 @@
 
 let vteste: string[] | string | number;
 vteste = "Bruno";
+
 vteste = 1233;
 let cursos: string[] = ["Javzascript", "Typescript", "C++"];
 let valores: number[] = [15, 23, 5, 3];
