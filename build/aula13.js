@@ -1,10 +1,13 @@
 "use strict";
-function verificar_impar_par(num_teste) {
-    if (num_teste % 2 === 0) {
-        return console.log("par");
-    }
-    else {
-        return console.log("impar");
+function soma2(n1 = 0, n2 = 0) {
+    return n1 + n2;
+}
+console.log(soma2());
+function novoUser(user, pass, nome) {
+    console.log(`User: ${user}`);
+    console.log(`Pass: ${pass}`);
+    if (typeof nome === undefined) {
+        return console.log("usuario nao definiu nome");
     }
 }
-verificar_impar_par(2);
+novoUser("vit", "1234");
