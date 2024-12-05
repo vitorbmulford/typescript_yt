@@ -8,9 +8,9 @@ console.log("------");
 
 logar("teste", "0000");
 
-function soma2(n1: number, n2: number): number {
+function soma3(n1: number, n2: number): number {
   let r = n1 + n2;
   return r;
 }
-const res = soma2(1, 2);
+const res = soma3(1, 2);
 console.log(res);
