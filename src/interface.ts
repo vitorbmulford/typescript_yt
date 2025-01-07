@@ -9,6 +9,7 @@ const user: IUser = {
   name: "Vitor",
   status: "active",
 };
+
 interface IUserWithRole extends IUser {
   role: string;
 }
